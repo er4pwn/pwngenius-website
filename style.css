@@ -1,0 +1,103 @@
+
+
+
+
+* {
+   
+    font-family:"Overpass Mono"
+}
+
+a {
+    color: lightgreen;
+}
+
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(30%);
+}
+
+#title {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+
+#title h4 {
+    color: white;
+    font-family: "GochiHand";
+    font-size: 1.5rem;
+}
+
+#links {
+    color: white;
+}
+
+#members-backlink {
+    margin-top: 1.5vh;
+    text-align: center;
+}
+
+#members-title {
+    margin-top: 4vh;
+    color: white;
+    text-align: center;
+}
+
+#members {
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#members img {
+    width: 75px;
+    border-radius: 50px;
+}
+
+#members th {
+    color: white;
+    font-weight: normal;
+    border-top: 1px solid #fff3;
+    border-bottom: 1px solid #fff3;
+    padding: 15px 5px;
+}
+
+#members tr > th:first-child {
+    padding-right: 15px;
+}
+
+#members mark {
+    padding: 3px 6px;
+    color: red;
+}
+
+#members .name {
+    padding-bottom: 8px;
+    color: lightgreen;
+}
+
+#members .skills {
+    padding-bottom: 8px;
+}
+.content {
+    margin: center;
+}
+#memberss {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #fff3;
+    border-bottom: 1px solid #fff3;
+    padding: 15px 5px;
+}
